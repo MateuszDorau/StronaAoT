@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.logo{
+    height: 400px;
+    background-color: black;
+}
+#h1, #h4{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-weight: 600px;
+}
+#h2{
+    margin-left: 10%;
+    font-size: 2em;
+}
+#h3{
+    margin-left: 10%;
+    font-size: 2.5em;
+}
+h2{
+    font-family: Labrada;
+    color: orange;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    position: sticky;
+    top: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(149,92,14,1) 48%, rgba(10,9,0,1) 85%);
+}
+nav li{
+    padding: 30px;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: Shantell Sans;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+header figure img{
+    float: left;
+    width: 20%;
+    height: 50%;
+}
+header figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite alternate-reverse;
+}
+.sekcja4 figure img{
+    float: left;
+    width: 20%;
+    height: 50%;
+}
+.sekcja4 figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite alternate-reverse;
+}
+@keyframes slider{
+    0%{left: 0%;}
+    20%{left: -100%;}
+    25%{left: -100%;}
+    45%{left: -200%;}
+    50%{left: -200%;}
+    70%{left: -300%;}
+    75%{left: -300%;}
+    95%{left: -400%;}
+    100%{left: -400%;}
+}
+#welcome{
+    text-align:center;
+    font-family:bitter;
+    font-size: 120%;
+}
+#lore{
+    font-family:bitter;
+    margin-left: 5%;
+    margin-right:20%;
+    font-size: 120%;
+}
+#characters{
+        background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(149,92,14,1) 60%, rgba(10,9,0,1) 100%);
+        background-size: 400% 400%;
+        animation: gradient 35s ease infinite;
+        height: 100%;
+}
+#char{
+    margin-right: 50%;
+    margin-left: 3%;
+    font-family: bitter;
+}
+.name{
+    margin-right: 50%;
+    margin-left: 15%;
+    font-family: Shantell Sans; 
+    font-size: 3em;  
+}   
+#name{
+    color: white;
+} 
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+.sekcja1{
+    background: rgb(125,125,125);
+    background: linear-gradient(0deg, rgba(125,125,125,1) 52%, rgba(179,113,17,1) 100%);
+}
+.sekcja2{
+    background: linear-gradient(0deg, rgba(119,76,15,1) 15%, rgba(17,28,46,1) 80%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+}
+.sekcja4{
+    background-color:hsla(0, 0%, 0%, 0.918)
+}
+.sekcja1,.sekcja2,.sekcja3, .sekcja4, .sekcja5 p{
+     color: white;
+}
+
+.link{
+    text-align: center;
+}
+.p1{
+    color: white;
+    text-align: right;
+    margin-right: 5%;
+}
+footer{
+    height: 240px;
+    background-color: black;
+}
+
+.link{
+    width: 50px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+#parallax1{
+    height:40vh;
+    width:100%;
+    background-image:url("../img/obraz1.jpg");
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#parallax2{
+    height:50vh;
+    width:100%;
+    background-image:url("../img/obraz2.jpg");
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#parallax3{
+    height:50vh;
+    width:100%;
+    background-image:url("../img/obraz3.jpg");
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+
